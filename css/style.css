@@ -226,13 +226,13 @@ No part of the gallery should be visible. */
         display: none !important;
         visibility: hidden !important;
     }
-}
-
-
 /* Step 21:
 Without using list-style-type add the thumbs up entity as shown in the cards. This is a challenge problem. You should not give or receive help when completing it.**For some people the thumbs up is not printing as yellow. That is fine. */
 
-/* .card h4::after*/
-.card ul li:nth-child(2)::after {
-    content: "\1F44D";
+/* or .card h4::after also works*/
+    .card ul li:nth-child(2)::after {
+        content: "\1F44D";
+    }
 }
+
+
